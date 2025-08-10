@@ -1,5 +1,5 @@
 {
-  "name": "pdf-extractor",
+  "name": "pdf-extractor-data",
   "version": "1.0.0",
   "description": "Addon nativo Node.js em C++ para extração de dados de PDF",
   "main": "lib/index.js",
