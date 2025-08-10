@@ -63,7 +63,7 @@ static std::string ReadMetaTextAsUtf8(FPDF_DOCUMENT doc, const char* tag) {
   return Utf16LeToUtf8(buffer);
 }
 
-static std::string MapPdfiumErrorToMessage(DWORD code) {
+static std::string MapPdfiumErrorToMessage(FPDF_DWORD code) {
   switch (code) {
     case FPDF_ERR_SUCCESS: return "Sucesso";
     case FPDF_ERR_FILE: return "Erro de arquivo (não encontrado ou inacessível)";
@@ -117,7 +117,7 @@ Napi::Value ExtractPdf(const Napi::CallbackInfo& info) {
     doc = FPDF_LoadMemDocument(dataPtr, static_cast<int>(dataLen), password.empty() ? nullptr : password.c_str());
   }
   if (!doc) {
-    DWORD code = FPDF_GetLastError();
+    FPDF_DWORD code = FPDF_GetLastError();
     Napi::Error::New(env, MapPdfiumErrorToMessage(code)).ThrowAsJavaScriptException();
     return env.Null();
   }
