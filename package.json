@@ -1,6 +1,6 @@
 {
   "name": "pdf-extractor-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Addon nativo Node.js em C++ para extração de dados de PDF",
   "main": "lib/index.js",
   "scripts": {

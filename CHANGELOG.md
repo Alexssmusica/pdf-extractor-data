@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Alexssmusica/pdf-extractor-data/compare/v1.0.1...v1.0.2) (2025-08-10)
+
+
+### Bug Fixes
+
+* removido arquivos nao necessarios ([bedadaa](https://github.com/Alexssmusica/pdf-extractor-data/commit/bedadaa741146e9321e62d8f5d8dae97e4892545))
+
 ## [1.0.1](https://github.com/Alexssmusica/pdf-extractor-data/compare/v1.0.0...v1.0.1) (2025-08-10)
 
 
