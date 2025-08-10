@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Alexssmusica/pdf-extractor.git"
+    "url": "git@github.com:Alexssmusica/pdf-extractor-data.git"
   },
   "keywords": [
     "pdf",
@@ -27,21 +27,21 @@
   ],
   "author": {
     "name": "Alex Santos de Souza",
-    "url": "https://github.com/Alexssmusica/pdf-extractor/#readme",
+    "url": "https://github.com/Alexssmusica/pdf-extractor-data/#readme",
     "email": "alexssmusica@gmail.com"
   },
   "binary": {
     "module_name": "pdf_extractor",
     "module_path": "build/Release/",
-    "host": "https://github.com/Alexssmusica/pdf-extractor/releases/download/",
+    "host": "https://github.com/Alexssmusica/pdf-extractor-data/releases/download/",
     "remote_path": "v{version}"
   },
   "gypfile": false,
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alexssmusica/pdf-extractor/issues"
+    "url": "https://github.com/Alexssmusica/pdf-extractor-data/issues"
   },
-  "homepage": "https://github.com/Alexssmusica/pdf-extractor#readme",
+  "homepage": "https://github.com/Alexssmusica/pdf-extractor-data#readme",
   "dependencies": {
     "bindings": "1.5.0",
     "dotenv": "16.4.7",
