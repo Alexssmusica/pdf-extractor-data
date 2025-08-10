@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Alexssmusica/pdf-extractor-data/compare/v1.0.2...v1.0.3) (2025-08-10)
+
+
+### Bug Fixes
+
+* add npmignore ([0661b92](https://github.com/Alexssmusica/pdf-extractor-data/commit/0661b92319a94500c90511ed10159a613d7aa367))
+
 ## [1.0.2](https://github.com/Alexssmusica/pdf-extractor-data/compare/v1.0.1...v1.0.2) (2025-08-10)
 
 
