@@ -12,8 +12,7 @@
     "build": "npm run clean:lib && tsc -p tsconfig-build.json && node-gyp build",
     "rebuild": "node-gyp rebuild",
     "release": "node release.js",
-    "test": "jest -u",
-    "bench": "node scripts/bench.js"
+    "test": "jest -u"
   },
   "repository": {
     "type": "git",

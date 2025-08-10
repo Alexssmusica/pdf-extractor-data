@@ -32,3 +32,4 @@ packages/
 tsconfig.json
 tsconfig-build.json
 tsconfig-build.tsbuildinfo
+README.md
